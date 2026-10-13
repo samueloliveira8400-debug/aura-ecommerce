@@ -203,7 +203,7 @@ app.use(express.json({ limit: '30kb' }));
 app.use(express.urlencoded({ extended: false, limit: '10kb' }));
 app.use(session({
   name: 'aura.sid',
-  secret: process.env.SESSION_SECRET || 'development-only-change-this-session-secret',
+  secret: process.env.SESSION_SECRET || crypto.randomBytes(32).toString('hex'),
   resave: false,
   saveUninitialized: false,
   store: new PostgresSessionStore(),
