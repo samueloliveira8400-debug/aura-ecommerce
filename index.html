@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5f0">
+  <meta name="description" content="Descubra perfumes, cuidados pessoais e smartphones na Aura. Loja demonstrativa: catálogo, produtos e pagamentos são simulados.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aura — perfumes, beleza e tecnologia">
+  <meta property="og:description" content="Perfumes conhecidos, cuidados pessoais e smartphones em um catálogo demonstrativo.">
+  <title>Aura — perfumes, beleza e tecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="demo-strip">LOJA DE DEMONSTRAÇÃO · Produtos, frete e pagamentos são simulados. Nenhuma cobrança real.</div>
+  <header class="site-header">
+    <div class="header-top page-width">
+      <a class="brand" href="/" aria-label="Aura — início">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span><strong>Aura</strong><small>BELEZA &amp; ESTILO</small></span>
+      </a>
+      <form class="search-form" id="search-form" role="search">
+        <label class="visually-hidden" for="search-input">Buscar produtos</label>
+        <input id="search-input" type="search" placeholder="Busque seu próximo favorito" autocomplete="off">
+        <button aria-label="Buscar" type="submit"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg></button>
+      </form>
+      <div class="header-actions">
+        <button class="icon-action favorites-trigger" id="favorites-open" type="button" aria-label="Ver favoritos, 0 produtos">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.8c0 5.2-8.8 11-8.8 11s-8.8-5.8-8.8-11A4.8 4.8 0 0 1 12 6.3a4.8 4.8 0 0 1 8.8 2.5Z"></path></svg><span>Favoritos</span><b id="favorites-count">0</b>
+        </button>
+        <button class="icon-action account-trigger" id="account-open" aria-label="Consultar meus pedidos">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.4"></circle><path d="M5 20c.6-3.5 3-5.3 7-5.3s6.4 1.8 7 5.3"></path></svg><span>Minha conta</span>
+        </button>
+        <button class="icon-action bag-trigger" id="cart-open" aria-label="Abrir sacola, 0 itens">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg><span>Sacola</span><b id="cart-count">0</b>
+        </button>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <div class="page-width nav-inner">
+        <a href="#colecao" data-category="todos">Novidades</a><a href="#colecao" data-category="perfumes">Perfumes</a><a href="#colecao" data-category="cosmeticos">Beleza &amp; cuidados</a><a href="#colecao" data-category="smartphones">Tecnologia</a><a href="#ritual">Nosso ritual</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero page-width" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow">UM PRESENTE PARA TODOS OS SENTIDOS</span>
+        <h1 id="hero-title">Encontre aquilo<br>que <em>combina com você.</em></h1>
+        <p>Fragrâncias para guardar na memória, cuidado para chamar de seu e tecnologia para acompanhar cada momento.</p>
+        <a class="button button-dark" href="#colecao">Descubra a curadoria <span aria-hidden="true">→</span></a>
+        <div class="hero-note"><span class="note-dot"></span> Seleção especial · Novos favoritos todos os dias</div>
+      </div>
+      <div class="hero-image-wrap">
+        <img class="hero-image" src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1300&q=90" alt="Frasco de perfume elegante sobre fundo delicado">
+        <div class="floating-note"><span>✦</span><span>Um detalhe muda<br><strong>toda a sensação.</strong></span></div>
+        <div class="hero-image-caption">A arte de escolher bem <span>01 — 03</span></div>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Vantagens da loja demonstrativa">
+      <div class="page-width benefits-grid">
+        <div><span class="benefit-icon">✧</span><span><strong>Curadoria especial</strong><small>Peças para cada momento</small></span></div>
+        <div><span class="benefit-icon">♧</span><span><strong>Frete demonstrativo</strong><small>Grátis acima de R$ 250</small></span></div>
+        <div><span class="benefit-icon">♡</span><span><strong>Escolhas com carinho</strong><small>Seu próximo favorito está aqui</small></span></div>
+        <div><span class="benefit-icon">◉</span><span><strong>Compra protegida</strong><small>Pagamento apenas simulado</small></span></div>
+      </div>
+    </section>
+
+    <section class="collection page-width" id="colecao" aria-labelledby="collection-title">
+      <div class="section-heading">
+        <div><span class="eyebrow">ESCOLHAS QUE ENCANTAM</span><h2 id="collection-title">A curadoria da estação</h2><p>Pequenos prazeres, grandes descobertas.</p></div>
+        <a class="text-link" href="#colecao" id="clear-filters">Ver todos os produtos <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="catalog-toolbar">
+        <div class="filter-chips" role="group" aria-label="Filtrar por categoria">
+          <button class="filter-chip is-active" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter-chip" data-filter="perfumes" aria-pressed="false">Perfumes</button>
+          <button class="filter-chip" data-filter="cosmeticos" aria-pressed="false">Beleza &amp; cuidados</button>
+          <button class="filter-chip" data-filter="smartphones" aria-pressed="false">Tecnologia</button>
+        </div>
+        <label class="sort-label" for="sort-select">Ordenar por
+          <select id="sort-select"><option value="featured">Destaques</option><option value="price-asc">Menor preço</option><option value="price-desc">Maior preço</option><option value="name">Nome</option></select>
+        </label>
+      </div>
+      <p class="results-message" id="results-message" aria-live="polite"></p>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden><span>✧</span><h3>Nenhum resultado por aqui</h3><p>Tente buscar por outro nome ou categoria.</p><button class="button button-outline" id="reset-search">Limpar busca</button></div>
+      <p class="demo-note">* Catálogo e preços exclusivamente demonstrativos. Imagens ilustrativas; disponibilidade não representa estoque real.</p>
+    </section>
+
+    <section class="ritual-banner page-width" id="ritual">
+      <div class="ritual-copy"><span class="eyebrow">UM BOM MOMENTO COMEÇA NOS DETALHES</span><h2>Seu ritual.<br>Seu tempo.<br><em>Sua essência.</em></h2><p>Explore uma seleção feita para presentear, experimentar e descobrir algo novo.</p><a class="button button-light" href="#colecao">Encontre seu próximo favorito <span aria-hidden="true">→</span></a></div>
+      <div class="ritual-image"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1100&q=85" alt="Produtos de autocuidado em uma composição suave" loading="lazy"><span>BELEZA QUE VEM DE DENTRO</span></div>
+    </section>
+
+    <section class="newsletter page-width">
+      <span class="eyebrow">UM BILHETE BONITO NA SUA CAIXA DE ENTRADA</span>
+      <h2>Novidades que dão vontade de abrir.</h2><p>Inscreva-se para receber novidades desta loja demonstrativa.</p>
+      <form id="newsletter-form"><label class="visually-hidden" for="newsletter-email">Seu e-mail</label><input id="newsletter-email" type="email" placeholder="Seu melhor e-mail" required><button class="button button-dark" type="submit">Quero receber <span aria-hidden="true">→</span></button></form>
+      <small id="newsletter-message" aria-live="polite"></small>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-width footer-main">
+      <div class="footer-brand"><a class="brand brand-footer" href="/"><span class="brand-mark" aria-hidden="true">A</span><span><strong>Aura</strong><small>BELEZA &amp; ESTILO</small></span></a><p>Uma loja de demonstração criada para celebrar a arte de escolher.</p><a class="whatsapp-link" href="https://wa.me/?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20loja%20Aura." target="_blank" rel="noopener noreferrer">Converse pelo WhatsApp ↗</a></div>
+      <div><h3>Explore</h3><a href="#colecao" data-category="perfumes">Perfumes</a><a href="#colecao" data-category="cosmeticos">Beleza &amp; cuidados</a><a href="#colecao" data-category="smartphones">Tecnologia</a></div>
+      <div><h3>Informações</h3><a href="/pages/trocas.html">Trocas e devoluções</a><a href="/pages/privacidade.html">Privacidade</a><a href="/pages/termos.html">Termos de uso</a></div>
+      <div><h3>Atendimento</h3><p>Segunda a sexta<br>9h às 18h (horário demonstrativo)</p><a href="mailto:oi@aura.example">oi@aura.example</a><a href="/admin.html">Acesso administrativo</a></div>
+    </div>
+    <div class="footer-bottom page-width"><span>© 2026 Aura · Projeto demonstrativo, sem venda real.</span><span>Feito com cuidado, do primeiro clique ao último detalhe.</span></div>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" aria-modal="true" role="dialog" hidden>
+    <div class="drawer-head"><div><span class="eyebrow">SELECIONADOS COM CARINHO</span><h2 id="cart-title">Sua sacola <span id="drawer-count">(0)</span></h2></div><button class="close-button" data-close aria-label="Fechar sacola">×</button></div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-empty" id="cart-empty"><span>♡</span><h3>Sua sacola está esperando</h3><p>Adicione algo especial para começar.</p><button class="button button-outline" data-close>Explorar a curadoria</button></div>
+    <div class="cart-summary" id="cart-summary" hidden><div class="shipping-progress"><span>✧</span><span id="shipping-message">Frete demonstrativo grátis em compras acima de R$ 250.</span></div><div class="summary-row"><span>Subtotal</span><strong id="cart-subtotal">R$ 0,00</strong></div><p>Frete demonstrativo calculado na próxima etapa.</p><button class="button button-dark button-full" id="checkout-open">Continuar para checkout <span aria-hidden="true">→</span></button><small>Pagamento mock · Nenhuma cobrança real será feita.</small></div>
+  </aside>
+
+  <section class="modal favorites-modal" id="favorites-modal" role="dialog" aria-modal="true" aria-labelledby="favorites-title" hidden>
+    <button class="close-button modal-close" data-close aria-label="Fechar favoritos">×</button>
+    <span class="eyebrow">SUA LISTA PESSOAL</span>
+    <h2 id="favorites-title">Meus favoritos <span id="favorites-modal-count"></span></h2>
+    <p class="favorites-intro">Os produtos que você marcou com o coração ficam guardados aqui neste navegador.</p>
+    <div class="favorites-grid" id="favorite-items"></div>
+    <div class="favorites-empty" id="favorites-empty" hidden><span aria-hidden="true">♡</span><h3>Sua lista está vazia</h3><p>Marque o coração de um produto para encontrá-lo aqui.</p><button class="button button-outline" type="button" data-close>Continuar explorando</button></div>
+  </section>
+
+  <section class="modal" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="product-modal-title" hidden><button class="close-button modal-close" data-close aria-label="Fechar detalhes">×</button><div id="product-detail"></div></section>
+
+  <section class="modal form-modal" id="account-modal" role="dialog" aria-modal="true" aria-labelledby="account-title" hidden>
+    <button class="close-button modal-close" data-close aria-label="Fechar meus pedidos">×</button><span class="eyebrow">SUA CONTA</span><h2 id="account-title">Acompanhe seus pedidos</h2><p>Informe o e-mail usado no checkout demonstrativo.</p>
+    <form id="account-form"><label for="account-email">E-mail</label><input id="account-email" name="email" type="email" autocomplete="email" required><button class="button button-dark button-full">Consultar pedidos</button></form>
+    <div id="account-results" aria-live="polite"></div>
+  </section>
+
+  <section class="modal checkout-modal" id="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkout-title" hidden>
+    <button class="close-button modal-close" data-close aria-label="Fechar checkout">×</button>
+    <div class="checkout-heading"><span class="eyebrow">FINALIZAR PEDIDO · DEMONSTRAÇÃO</span><h2 id="checkout-title">Um último detalhe</h2><div class="checkout-steps" aria-label="Etapa 1 de 2"><span class="step-dot is-current"></span><span class="step-line"></span><span class="step-dot"></span><small id="checkout-step-label">Seus dados</small></div></div>
+    <form id="checkout-form">
+      <div class="checkout-step" data-step="1">
+        <h3>Para onde vai esse carinho?</h3>
+        <div class="form-grid">
+          <label class="field field-full">Nome completo<input name="name" autocomplete="name" maxlength="100" required></label>
+          <label class="field">E-mail<input name="email" type="email" autocomplete="email" maxlength="180" required></label>
+          <label class="field">Celular<input name="phone" type="tel" autocomplete="tel" maxlength="30" placeholder="(11) 99999-9999" required></label>
+          <label class="field">CEP<input name="postalCode" inputmode="numeric" autocomplete="postal-code" maxlength="12" placeholder="00000-000" required></label>
+          <label class="field">Estado<input name="state" autocomplete="address-level1" maxlength="2" placeholder="SP" required></label>
+          <label class="field field-full">Endereço<input name="street" autocomplete="street-address" maxlength="140" required></label>
+          <label class="field">Número<input name="number" maxlength="20" required></label>
+          <label class="field">Complemento <span>(opcional)</span><input name="complement" maxlength="100"></label>
+          <label class="field">Bairro<input name="neighborhood" maxlength="80" required></label>
+          <label class="field">Cidade<input name="city" autocomplete="address-level2" maxlength="80" required></label>
+        </div>
+        <button class="button button-dark button-full" type="button" id="checkout-next">Continuar para pagamento <span aria-hidden="true">→</span></button>
+      </div>
+      <div class="checkout-step" data-step="2" hidden>
+        <button class="back-link" type="button" id="checkout-back">← Voltar aos dados</button>
+        <h3>Escolha como pagar</h3>
+        <p class="mock-warning">Demonstração: as opções abaixo são fictícias. Não informe dados de cartão; nenhum pagamento será processado.</p>
+        <label class="payment-choice"><input type="radio" name="paymentMethod" value="pix_mock" checked><span><strong>Pix demonstrativo</strong><small>Simulação, sem chave ou transação real</small></span></label>
+        <label class="payment-choice"><input type="radio" name="paymentMethod" value="boleto_mock"><span><strong>Boleto demonstrativo</strong><small>Nenhum boleto será emitido</small></span></label>
+        <label class="payment-choice"><input type="radio" name="paymentMethod" value="card_mock"><span><strong>Cartão demonstrativo</strong><small>Não pedimos nem armazenamos número de cartão</small></span></label>
+        <div class="coupon-entry">
+          <label class="field" for="coupon-code">Cupom de desconto<input id="coupon-code" name="couponCode" autocomplete="off" maxlength="40" placeholder="Ex.: AURA10"></label>
+          <button class="button button-outline" type="button" id="apply-coupon">Aplicar</button>
+          <button class="button button-outline" type="button" id="remove-coupon" hidden>Remover</button>
+        </div>
+        <p class="coupon-message" id="coupon-message" aria-live="polite"></p>
+        <div class="checkout-total"><span>Subtotal</span><strong id="checkout-subtotal">R$ 0,00</strong></div>
+        <div class="checkout-total coupon-discount" id="coupon-discount-row" hidden><span>Desconto <small id="coupon-applied-code"></small></span><strong id="checkout-discount">− R$ 0,00</strong></div>
+        <div class="checkout-total"><span>Frete estimado <small>(demonstrativo)</small></span><strong id="checkout-shipping">R$ 0,00</strong></div>
+        <div class="checkout-total checkout-grand-total"><span>Total estimado <small>(pagamento mock)</small></span><strong id="checkout-total">R$ 0,00</strong></div>
+        <button class="button button-dark button-full" type="submit" id="place-order">Concluir pedido demonstrativo <span aria-hidden="true">→</span></button>
+      </div>
+      <p class="form-error" id="checkout-error" role="alert"></p>
+    </form>
+    <div id="checkout-success" class="checkout-success" aria-live="polite" hidden></div>
+  </section>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

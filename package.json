@@ -1,0 +1,24 @@
+{
+  "name": "aura-loja-demonstrativa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Loja demonstrativa premium de perfumes, cosméticos e smartphones",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check js/script.js && node --check js/admin.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "pg": "^8.23.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
